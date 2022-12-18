@@ -13,6 +13,5 @@
 
 
     const testMap = companies.map(company => `${company.name} [${company.start} - ${company.end}]`);
-{companyStart} - {companyEnd} `);
+{companyStart} - {companyEnd}  `);
 
-const agesSquare = ages.

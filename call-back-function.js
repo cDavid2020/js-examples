@@ -35,7 +35,6 @@ function displayDom(output){
     document.getElementById("myLabel").innerHTML = output;
 
 
-
 //callback example
 cacheconsole.log("1");
 setTimeout() => {
