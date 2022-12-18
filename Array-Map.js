@@ -1,14 +1,19 @@
-// Filter element
+// array.map() = executes a provided callback function once for each array element, AND returns a new array with the results
 
-//array.filter() = creates a new array with all elements that pass the test provided by a function
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let square = numbers.map(square);
+let cubes = numbers.map(cube);
 
-let ages = [32, 33, 16, 19, 42, 85, 40];
+function square(element) {
+  return Math.pow(element, 2);
+}
 
-// a function to to check age
-function checkAge(element) {
-  return element >= 18;
+function cube(element) {
+  return Math.pow(element, 3);
 }
 
 function print(element) {
   console.log(element);
 }
+
+
