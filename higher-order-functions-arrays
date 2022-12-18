@@ -1,0 +1,18 @@
+/*  Higher Order Functions & Arrays*/
+
+// const lastedTenYears = companies.filter(company => (company.end - company.start >= 10));
+
+// create array of company names
+// const companyNames = companies.map(function(company) {
+//    return company.name;
+// });
+
+// const testMap = companies.map(function(company) {
+//    return `${company.name} [${company.start} - ${company.end}]`;
+// });
+
+
+    const testMap = companies.map(company => `${company.name} [${company.start} - ${company.end}]`);
+{companyStart} - {companyEnd} `);
+
+const agesSquare = ages.
