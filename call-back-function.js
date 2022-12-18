@@ -2,42 +2,42 @@
 
 //callback example 
 
-let total = sum(2,3);
+let total = sum(2, 3);
 
-functionion sum(){
-  let result = x+y; 
-  return result
+function sum() {
+    let result = x + y;
+    return result
 }
 
-function displayConsole(output){
-   console.log("output");
+function displayConsole(output) {
+    console.log("output");
 }
 
 //function to display output to the DOM
-function displayDom(output){
+function displayDom(output) {
     document.getElementById("myLabel").innerHTML = output;
-  
+
 }
 
 //another way to use 👆is w a callback function
-sum(2,3,displayConsole);
+sum(2, 3, displayConsole);
 
-function sum(x,y,myFunction){ //renamed callBack to myFunction. you can rename parameters
-   let result = x + y;
+function sum(x, y, myFunction) { //renamed callBack to myFunction. you can rename parameters
+    let result = x + y;
 }
 
-function displayConsole(output){
-   console.log("output");
+function displayConsole(output) {
+    console.log("output");
 }
 
 //function to display output to the DOM
-function displayDom(output){
+function displayDom(output) {
     document.getElementById("myLabel").innerHTML = output;
 
 
-//callback example
-cacheconsole.log("1");
-setTimeout() => {
-    console.log("2");
-}, 1000);
-console.log("3");
+    //callback example
+    cacheconsole.log("1");
+    setTimeout() => {
+        console.log("2");
+    }, 1000);
+    console.log("3");
