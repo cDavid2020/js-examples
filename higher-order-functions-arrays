@@ -12,6 +12,6 @@
 // });
 
 
-    const testMap = companies.map(company => `${company.name} [${company.start} - ${company.end}]`);
-{companyStart} - {companyEnd}  `);
+const testMap = companies.map(company => `${company.name} [${company.start} - ${company.end}]`);
+{ companyStart } - { companyEnd }  `);
 

@@ -3,6 +3,7 @@
 const copy = dinosaurs.slice();
 
 const copy = [...dinosaurs];
+//called a spread operator, think of it as a way to copy two Things and spread all the contents...dinosaurs
 
 
 // Add a dinosaur to a list
